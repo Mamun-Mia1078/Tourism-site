@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Mamun's tour site</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+<style>
+  #carouselBasicExample,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active{
+    height: 100vh;
+    background-color: ;
+  }
+  .carousel-inner{
+    background-size: cover;
+    background-position: center center;
+    background: no-repeat;
+  }
+#carouselBasicExample{
+  margin-top: -66.6px;
+}
+.navbar{
+  z-index: 100;
+}
+.container{
+  height: 100%;
+  display: grid;
+}
+  
+</style>
+
+
+  </head>
+  <body>
+   <!-- Start your project here-->
+    <header class="mb-5" >
+          <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-success bg-warning">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="img/logo.png"
+          height="15"
+          alt="MTM"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://oldporthistorictours.com/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://directtrust.org/about-membership/member-list">Our Member</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Next Tour</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-white me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          class="text-white me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li>
+            <a class="dropdown-item" href="#">Some news</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Another news</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="img/my.jpg"
+            class="rounded-circle"
+            height="25"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">My profile</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Settings</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
+<!-- Carousel wrapper -->
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img src="img/cover1.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="text-danger"> <b>Sangu River</b> </h3>
+        <h6 class="text-danger">Nulla vitae elit libero, a pharetra augue mollis interdum.</h6>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="img/cover2.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="text-danger"><b>Cox'sbazar</b></h3>
+        <h6 class="text-danger">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="img/cover3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="text-danger"><b>Hatirjeel</b></h3>
+        <h6 class="text-danger">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h6>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+    </header>
+    <br>
+    <main>
+  <div class="container">
+      <div class="col-md-12">
+        <h3 class="text-center text-danger">Our Cox'sBazar Event</h3>
+        <p class="text-warning ">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam ratione ad ab iusto recusandae illo, molestias error totam accusantium? Repellendus, corporis. Error doloribus quas doloremque sit harum eum dolore repudiandae officia praesentium numquam culpa sequi tempore, veniam mollitia nobis, excepturi rem ullam maiores optio, tenetur dicta? Repellendus illum, nihil maxime obcaecati tenetur ipsum placeat quia enim, incidunt asperiores excepturi repellat hic iusto suscipit sunt optio quis fuga, distinctio ipsam? Sit, corrupti, odio aperiam delectus quia veniam rem ut, possimus deleniti maiores molestias? Temporibus accusamus in quidem nam? Sint provident dolorum in nesciunt repellendus ad placeat fugiat necessitatibus fuga? Similique harum reiciendis molestias, exercitationem obcaecati doloremque quia cum dolores ea consequuntur, fugit pariatur nulla, facere quae architecto. Amet temporibus rerum libero voluptatem suscipit iure itaque cupiditate natus, tenetur corporis repellendus delectus nihil ad quibusdam minima id quidem, at voluptatum tempore. Incidunt laudantium officia, pariatur aliquam excepturi quo nulla esse hic ad alias maxime accusantium reprehenderit facere ratione voluptates libero quibusdam! Voluptatum illo possimus esse. Expedita dicta inventore, unde asperiores non voluptate exercitationem, eligendi, harum nobis repellendus incidunt ab reiciendis nam sint ad architecto in nihil soluta praesentium eveniet. Itaque dicta ut quasi corrupti delectus, neque accusantium alias voluptatibus nemo velit, minus temporibus autem accusamus officia dolores molestiae, molestias quia eum commodi! Atque, et! Illum dignissimos sed quaerat exercitationem modi qui, molestias adipisci, iste quas eos totam voluptatem maxime! In velit libero eum natus. Officiis repellendus asperiores explicabo voluptatum inventore earum porro saepe neque, quis maiores non voluptates doloremque in a.
+        </p>   
+         </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div
+  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+  data-mdb-ripple-color="light"
+>
+  <img src="img/cox2.jpg" class="w-100" alt="Louvre" />
+  <a href="#!">
+    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+  </a>
+</div>
+        </div>
+      <div class="col-md-4">
+        <div
+        class="bg-image hover-overlay ripple shadow-1-strong rounded"
+        data-mdb-ripple-color="light"
+      >
+        <img src="img/coxbazar.jpg" class="w-100" alt="Louvre" />
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+        </a>
+      </div>      </div>
+      <div class="col-md-4">
+        <div
+        class="bg-image hover-overlay ripple shadow-1-strong rounded"
+        data-mdb-ripple-color="light"
+      >
+        <img src="img/cox1.jpg" class="w-100" alt="Louvre" />
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+        </a>
+      </div>      </div>
+     
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="col-md-12">
+      <h3 class="text-center text-warning">Our Bandarban Event</h3>
+<p class="text-danger">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam ratione ad ab iusto recusandae illo, molestias error totam accusantium? Repellendus, corporis. Error doloribus quas doloremque sit harum eum dolore repudiandae officia praesentium numquam culpa sequi tempore, veniam mollitia nobis, excepturi rem ullam maiores optio, tenetur dicta? Repellendus illum, nihil maxime obcaecati tenetur ipsum placeat quia enim, incidunt asperiores excepturi repellat hic iusto suscipit sunt optio quis fuga, distinctio ipsam? Sit, corrupti, odio aperiam delectus quia veniam rem ut, possimus deleniti maiores molestias? Temporibus accusamus in quidem nam? Sint provident dolorum in nesciunt repellendus ad placeat fugiat necessitatibus fuga? Similique harum reiciendis molestias, exercitationem obcaecati doloremque quia cum dolores ea consequuntur, fugit pariatur nulla, facere quae architecto. Amet temporibus rerum libero voluptatem suscipit iure itaque cupiditate natus, tenetur corporis repellendus delectus nihil ad quibusdam minima id quidem, at voluptatum tempore. Incidunt laudantium officia, pariatur aliquam excepturi quo nulla esse hic ad alias maxime accusantium reprehenderit facere ratione voluptates libero quibusdam! Voluptatum illo possimus esse. Expedita dicta inventore, unde asperiores non voluptate exercitationem, eligendi, harum nobis repellendus incidunt ab reiciendis nam sint ad architecto in nihil soluta praesentium eveniet. Itaque dicta ut quasi corrupti delectus, neque accusantium alias voluptatibus nemo velit, minus temporibus autem accusamus officia dolores molestiae, molestias quia eum commodi! Atque, et! Illum dignissimos sed quaerat exercitationem modi qui, molestias adipisci, iste quas eos totam voluptatem maxime! In velit libero eum natus. Officiis repellendus asperiores explicabo voluptatum inventore earum porro saepe neque, quis maiores non voluptates doloremque in a.
+</p>      </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div
+class="bg-image hover-overlay ripple shadow-1-strong rounded"
+data-mdb-ripple-color="light"
+>
+<img src="img/bandarban.jpg" class="w-100" alt="Louvre" />
+<a href="#!">
+  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+</a>
+</div>
+      </div>
+    <div class="col-md-4">
+      <div
+      class="bg-image hover-overlay ripple shadow-1-strong rounded"
+      data-mdb-ripple-color="light"
+    >
+      <img src="img/bandarban1.jpg" class="w-100" alt="Louvre" />
+      <a href="#!">
+        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+      </a>
+    </div>      </div>
+    <div class="col-md-4">
+      <div
+      class="bg-image hover-overlay ripple shadow-1-strong rounded"
+      data-mdb-ripple-color="light"
+    >
+      <img src="img/bandarban2.jpg" class="w-100" alt="Louvre" />
+      <a href="#!">
+        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+      </a>
+    </div>      </div>
+   
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="col-md-12">
+    <h3 class="text-center text-success">Our Saint'Martins Event</h3>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam ratione ad ab iusto recusandae illo, molestias error totam accusantium? Repellendus, corporis. Error doloribus quas doloremque sit harum eum dolore repudiandae officia praesentium numquam culpa sequi tempore, veniam mollitia nobis, excepturi rem ullam maiores optio, tenetur dicta? Repellendus illum, nihil maxime obcaecati tenetur ipsum placeat quia enim, incidunt asperiores excepturi repellat hic iusto suscipit sunt optio quis fuga, distinctio ipsam? Sit, corrupti, odio aperiam delectus quia veniam rem ut, possimus deleniti maiores molestias? Temporibus accusamus in quidem nam? Sint provident dolorum in nesciunt repellendus ad placeat fugiat necessitatibus fuga? Similique harum reiciendis molestias, exercitationem obcaecati doloremque quia cum dolores ea consequuntur, fugit pariatur nulla, facere quae architecto. Amet temporibus rerum libero voluptatem suscipit iure itaque cupiditate natus, tenetur corporis repellendus delectus nihil ad quibusdam minima id quidem, at voluptatum tempore. Incidunt laudantium officia, pariatur aliquam excepturi quo nulla esse hic ad alias maxime accusantium reprehenderit facere ratione voluptates libero quibusdam! Voluptatum illo possimus esse. Expedita dicta inventore, unde asperiores non voluptate exercitationem, eligendi, harum nobis repellendus incidunt ab reiciendis nam sint ad architecto in nihil soluta praesentium eveniet. Itaque dicta ut quasi corrupti delectus, neque accusantium alias voluptatibus nemo velit, minus temporibus autem accusamus officia dolores molestiae, molestias quia eum commodi! Atque, et! Illum dignissimos sed quaerat exercitationem modi qui, molestias adipisci, iste quas eos totam voluptatem maxime! In velit libero eum natus. Officiis repellendus asperiores explicabo voluptatum inventore earum porro saepe neque, quis maiores non voluptates doloremque in a.
+</p>      </div>
+<div class="row">
+  <div class="col-md-4">
+    <div
+class="bg-image hover-overlay ripple shadow-1-strong rounded"
+data-mdb-ripple-color="light"
+>
+<img src="img/saint2.jpg" class="w-100" alt="Louvre" />
+<a href="#!">
+<div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+</a>
+</div>
+    </div>
+  <div class="col-md-4">
+    <div
+    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+    data-mdb-ripple-color="light"
+  >
+    <img src="img/saint1.jpg" class="w-100" alt="Louvre" />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+    </a>
+  </div>      </div>
+  <div class="col-md-4">
+    <div
+    class="bg-image hover-overlay ripple shadow-1-strong rounded"
+    data-mdb-ripple-color="light"
+  >
+    <img src="img/saint.jpg" class="w-100" alt="Louvre" />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+    </a>
+  </div>      </div>
+ 
+</div>
+</div>
+
+
+     
+     <div class="container">
+       <div class="row">
+
+       </div>
+       <hr class="my-5"/>
+       <h3 class="text-center text-secondary ">Our upcoming Events...</h3>
+
+       <div class="row mt-3">
+         <div class="col-md-6">
+          <div class="card">
+            <img src="img/debota2.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+            <div class="card-body">
+              <h5 class="card-title">DebotaKhum</h5>
+              <h6>Probable Date: 12-12-2023</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-warning">Click For Details</a>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-6">
+          <div class="card">
+            <img src="img/ratargul.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+            <div class="card-body">
+              <h5 class="card-title">Ratargul-</h5>
+              <h6>probable date: 12-12-2022</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-warning">Click For Details</a>
+            </div>
+          
+                
+          </div>
+            </div>
+          </div>
+         </div>
+
+       </div>
+     </div> <br>
+     <h3 class="text-danger text-center">Send Us Your Suggetion...</h3>
+     <br>
+    <div class="row justify-content-center">
+     <div class="col-md-6">
+      <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+      
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+      
+       
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-danger btn-block mb-4">Send</button>
+      </form>
+     </div>
+    </div>
+
+    </main>
+    <footer>
+      <!-- Footer -->
+<footer class="bg-primary text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <h4 class="text-center text-light">Connect Us...</h4>
+
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mamun-mia-054510236/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Mamun-Mia1078" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    
+        
+        
+</footer>
+<!-- Footer -->
+    </footer>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
